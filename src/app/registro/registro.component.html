@@ -24,7 +24,8 @@
       <form #formRegister= "ngForm" (ngSubmit)= "onRegister()">
         <input type="text" id="name" class="fadeIn second" name="name" placeholder="name" [(ngModel)]="user.name" required>
         <input type="text" id="username" class="fadeIn second" name="username" placeholder="user" [(ngModel)]="user.username" required>
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password" [(ngModel)]="user.password" required>
+        <input type="password" id="password" class="fadeIn third" name="login" placeholder="password" [(ngModel)]="user.password" required>
+        <p></p>
         <input type="submit" class="fadeIn fourth" value="Sign in">
       </form>
   

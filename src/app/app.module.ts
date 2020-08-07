@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
-import {FormsModule} from '@angular/forms'
+
+import {FormsModule} from '@angular/forms';
 
 //services
 import {UserApiService} from '../app/services/user-api.service'
